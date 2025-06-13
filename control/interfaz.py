@@ -11,6 +11,7 @@ listbox = tk.Listbox(root) #aca declaramos la listbox y le decimos que se ubique
 listbox.insert(1, "Opción 1") #vemos aca con el .insert le insertamos informacion a esta lista
 listbox.insert(2, "Opción 2")
 listbox.insert(3, "Opción 3")
+listbox.insert(4, "Opción 3")
 listbox.pack() # el .pack nos sirve para que las cosas se ubiquen en el centro una detras de otras y no tener que estar poniendo donde deben de ir las cosas exactamente
 
 # Checkbutton
@@ -23,9 +24,11 @@ var_radio = tk.IntVar() #creamos una variable nueva y tambien la asociamos a los
 radiobutton1 = tk.Radiobutton(root, text="Opción 1", value=1, variable=var_radio) #tenemos 3 radiobutton cada uno con un valor diferente
 radiobutton2 = tk.Radiobutton(root, text="Opción 2", value=2, variable=var_radio)
 radiobutton3 = tk.Radiobutton(root, text="Opción 3", value=3, variable=var_radio)
+radiobutton4 = tk.Radiobutton(root, text="Opción 3", value=3, variable=var_radio)
 radiobutton1.pack()
 radiobutton2.pack()
 radiobutton3.pack()
+radiobutton4.pack()
 
 # Menú
 menu = tk.Menu(root) 
