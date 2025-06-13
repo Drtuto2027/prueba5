@@ -11,7 +11,7 @@ listbox = tk.Listbox(root) #aca declaramos la listbox y le decimos que se ubique
 listbox.insert(1, "Opción 1") #vemos aca con el .insert le insertamos informacion a esta lista
 listbox.insert(2, "Opción 2")
 listbox.insert(3, "Opción 3")
-listbox.insert(4, "Opción 3")
+listbox.insert(4, "Opción 4")
 listbox.pack() # el .pack nos sirve para que las cosas se ubiquen en el centro una detras de otras y no tener que estar poniendo donde deben de ir las cosas exactamente
 
 # Checkbutton
